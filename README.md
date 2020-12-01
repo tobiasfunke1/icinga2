@@ -1,4 +1,4 @@
-# icinga2
+# icinga2_server
 
 ### change ssh port for hosts:
 ```
