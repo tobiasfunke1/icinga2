@@ -41,3 +41,12 @@ server {
         }
 }
 ```
+### add german language
+```
+sudo apt install language-pack-de
+sudo dpkg-reconfigure locales
+sudo service icinga2 restart
+sudo service nginx restart
+sudo service php7.2-fpm restart
+
+```
