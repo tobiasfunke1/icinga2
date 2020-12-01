@@ -43,6 +43,7 @@ server {
 ```
 ### add german language
 ```
+icingacli module enable translation
 sudo apt install language-pack-de
 sudo dpkg-reconfigure locales
 sudo service icinga2 restart
