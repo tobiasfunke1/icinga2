@@ -5,7 +5,7 @@
 hosts.conf
 object Host "hostname123" {
 ...
-vars.ssh_port = 1023
+vars.ssh_port = xx22
 ...
 }
 
