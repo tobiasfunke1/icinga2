@@ -51,3 +51,14 @@ sudo service nginx restart
 sudo service php7.2-fpm restart
 
 ```
+### ufw
+```
+# ssh
+sudo ufw allow xx22
+# wireguard
+sudo ufw allow 5xxxx/udp
+# vpn
+sudo ufw allow from 10.x.x.0/24
+sudo ufw enable
+sudo ufw status verbose
+```
